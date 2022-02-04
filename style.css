@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    font-family: "Outfit";
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.attribution {
+    font-size: 11px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 150px;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .card{
+      background-color: hsl(216, 50%, 16%);
+      box-shadow: hsl(216, 50%, 16%);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      height: 500px;
+      width: 300px;
+      border-radius: 15px;
+  }
+
+.image{
+    border-radius: 15px;
+}
+
+  img {
+      position: relative;
+      height: 250px;
+      width: 250px;
+      padding: 20px;
+      padding-bottom: 0px;
+      border-radius: 15px;
+  }
+
+  .card-title {
+      color: hsl(0, 0%, 100%);
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 20px;
+      padding: 0;
+  }
+
+p {
+    color: hsl(215, 51%, 70%);
+      font-size: 15px;
+      font-weight: lighter;
+      display: flex;
+      text-align: left;
+      width: 250px;
+      margin-left: 20px;
+      padding: 0;
+  }
+
+  span {
+      color: hsl(178, 100%, 50%);
+      width: 200px;
+  }
+
+  .eth {
+    color:hsl(215, 51%, 70%);
+      display: flex;
+      width: 300px;
+      justify-content:space-between;
+      right: 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid hsl(215, 51%, 70%);
+  }
+
+  .signature {
+    justify-content: flex-start;
+    color: hsl(215, 51%, 70%);
+  }
+  small {
+    color: hsl(0, 0%, 100%);
+  }
+
+  .profile {
+      border-radius: 50%;
+      height: 30px;
+      width: 30px;
+  }
